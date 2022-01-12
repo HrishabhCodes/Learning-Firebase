@@ -44,7 +44,7 @@ function Fireauth() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button onClick={signIn}>Sign In</button>
+          <button onClick={create}>Sign In</button>
         </div>
       ) : (
         <>
